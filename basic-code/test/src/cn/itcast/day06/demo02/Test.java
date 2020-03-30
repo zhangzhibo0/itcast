@@ -6,5 +6,6 @@ public class Test {
 
         System.out.println("测试添加git");
         System.out.println("笔记本测试git");
+        System.out.println("第二次测试添加");
     }
 }
