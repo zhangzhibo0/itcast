@@ -4,9 +4,12 @@ public class Test {
 
     public static void main(String[] args) {
 
-        System.out.println("测试添加git");
+        System.out.println("aaa");
 
 
-
+    }
+    public Phone p(){
+        System.out.println("ceshisdddddddddddddddss");
+        return p();
     }
 }
