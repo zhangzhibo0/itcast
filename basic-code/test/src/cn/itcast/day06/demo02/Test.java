@@ -5,11 +5,9 @@ public class Test {
     public static void main(String[] args) {
 
         System.out.println("aaa");
+        System.out.println("PC最后一次");
 
 
     }
-    public Phone p(){
-        System.out.println("ceshisdddddddddddddddss");
-        return p();
-    }
+
 }
