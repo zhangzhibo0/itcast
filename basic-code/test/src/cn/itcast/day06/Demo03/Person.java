@@ -9,8 +9,9 @@ package cn.itcast.day06.Demo03;
 必须叫 setXxx getXxx命名规则。
 
 
-对于getXxx ， 不能有参数。 返回值类型和成员变量对应。
 对于setXxx ,  不能用返回值，参数类型和成员变量对应。
+对于getXxx ， 不能有参数。 返回值类型和成员变量对应。
+
 
  */
 public class Person {
