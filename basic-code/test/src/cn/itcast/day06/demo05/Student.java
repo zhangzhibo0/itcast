@@ -1,4 +1,4 @@
-package cn.itcast.day06.Demo05;
+package cn.itcast.day06.demo05;
 
 public class Student {
 /*

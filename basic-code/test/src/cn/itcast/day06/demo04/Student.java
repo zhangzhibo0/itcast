@@ -1,4 +1,4 @@
-package cn.itcast.day06.Demo04;
+package cn.itcast.day06.demo04;
 
 
 /*

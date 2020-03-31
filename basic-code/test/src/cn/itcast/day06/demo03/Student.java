@@ -1,4 +1,4 @@
-package cn.itcast.day06.Demo03;
+package cn.itcast.day06.demo03;
 
 /*
 boolean get方法命名规范 isXxx

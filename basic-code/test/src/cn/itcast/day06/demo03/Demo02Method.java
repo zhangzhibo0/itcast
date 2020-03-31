@@ -1,4 +1,4 @@
-package cn.itcast.day06.Demo03;
+package cn.itcast.day06.demo03;
 
 /*
 面向对象三大特征: 封装 继承 多态

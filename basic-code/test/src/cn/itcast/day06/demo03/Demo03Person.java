@@ -1,4 +1,4 @@
-package cn.itcast.day06.Demo03;
+package cn.itcast.day06.demo03;
 
 public class Demo03Person {
 

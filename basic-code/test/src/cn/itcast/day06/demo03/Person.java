@@ -1,4 +1,4 @@
-package cn.itcast.day06.Demo03;
+package cn.itcast.day06.demo03;
 
 /*
 使用private 进行修饰，那么奔雷当中仍然可以随意访问。

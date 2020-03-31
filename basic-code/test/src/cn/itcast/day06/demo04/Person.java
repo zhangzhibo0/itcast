@@ -1,4 +1,4 @@
-package cn.itcast.day06.Demo04;
+package cn.itcast.day06.demo04;
 
 /*
 当方法的局部变量和类的成员变量重名的时候，根据“就近原则”，优先使用变量。
