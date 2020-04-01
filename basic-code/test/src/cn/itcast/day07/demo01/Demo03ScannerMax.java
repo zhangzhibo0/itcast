@@ -41,6 +41,7 @@ public class Demo03ScannerMax {
         return max;
     }
     */
+       //三元运算符 ， 判断大小。
         int temp = a > b ? a : b;
         int max = temp > c ? temp : c;
         return max;

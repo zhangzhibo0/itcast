@@ -23,11 +23,15 @@ public class Demo02ScannerSum {
 
     }
 
+
+    //俩个int类型相加
     public void Demo02ScannerSum(){
 
         Scanner sc  = new Scanner(System.in);
 
+        System.out.println("输入第一个int");
         int a = sc.nextInt();
+        System.out.println("输入第二个int");
         int b = sc.nextInt();
 
         int sum = a + b;
