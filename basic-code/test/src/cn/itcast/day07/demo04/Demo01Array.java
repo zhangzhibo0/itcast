@@ -19,7 +19,7 @@ public class Demo01Array {
         }
 
         System.out.println(array[0].getName());
-
+        System.out.println(array2.getName());
 
     }
 }

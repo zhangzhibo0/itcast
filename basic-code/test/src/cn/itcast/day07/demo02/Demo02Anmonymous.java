@@ -38,7 +38,7 @@ public class Demo02Anmonymous {
     }
 
     //匿名的Scanner 方法类
-    public static Scanner mthodReturn_2(){
+    public static Scanner mthodReturn_2() {
         return new Scanner(System.in);
     }
 }
