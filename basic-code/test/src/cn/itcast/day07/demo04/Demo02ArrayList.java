@@ -9,6 +9,7 @@ public class Demo02ArrayList {
         ArrayList<String> list = new ArrayList<>();
         System.out.println(list);
 
+
         int[] array = new int[]{};
         System.out.println(array);
         list.add("赵兴1");
