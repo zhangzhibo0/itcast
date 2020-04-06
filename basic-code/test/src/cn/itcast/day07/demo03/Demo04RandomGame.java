@@ -9,8 +9,8 @@ import java.util.Random;
 public class Demo04RandomGame {
     public static void main(String[] args) {
         //调用无限次数的随机小游戏
-        //one();
-        two();
+        one();
+        //two();
 
     }
 
