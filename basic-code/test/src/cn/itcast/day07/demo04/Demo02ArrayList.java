@@ -17,6 +17,7 @@ public class Demo02ArrayList {
         list.add("赵兴3");
         list.add("赵兴4");
 
+
         System.out.println(list);
     }
 }
