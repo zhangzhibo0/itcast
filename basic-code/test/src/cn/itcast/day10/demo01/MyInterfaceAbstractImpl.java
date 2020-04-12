@@ -1,4 +1,4 @@
-package cn.itcast.day10;
+package cn.itcast.day10.demo01;
 
 public class MyInterfaceAbstractImpl implements MyInterFaceAbstract{
 

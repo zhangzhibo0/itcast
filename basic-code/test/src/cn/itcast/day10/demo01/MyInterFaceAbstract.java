@@ -1,6 +1,6 @@
-package cn.itcast.day10;
+package cn.itcast.day10.demo01;
 
-public interface MyInterFaceAbstract {
+public interface  MyInterFaceAbstract {
 
     //这是一个抽象方法
     public abstract void methodAbs1();
