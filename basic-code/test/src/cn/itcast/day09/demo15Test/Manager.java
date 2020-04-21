@@ -4,31 +4,35 @@ import java.util.ArrayList;
 
 public class Manager extends User{
 
-    public Manager(){ };
-    public Manager(String name ,int money){
-        super(name,money);
+    public Manager(){
+
+    }
+    public Manager(String name, int money){
+        super(name, money);
     }
 
-    public  ArrayList<Integer> send(int totlamoney, int count){
-        ArrayList<Integer> redList = new ArrayList<>();
+    public ArrayList<Integer> send(int totalMoney, int counts){
+
+        ArrayList<Integer> relist = new ArrayList<>();
+
         int leftMoney = super.getMoney();
-        if(totlamoney > leftMoney){
+        if(totalMoney > leftMoney){
             System.out.println("余额不足");
-            return redList;
-        }
-        super.setMoney(leftMoney - totlamoney);
-
-        //计算红包金额与数量
-        int avg = totlamoney / count;
-        int mod = totlamoney % count;
-
-
-        for( int i = 0 ; i < count - 1 ; i++){
-            redList.add(avg);
+            return relist;
         }
 
+        super.setMoney(leftMoney - totalMoney);
+
+        int avg = totalMoney / counts;
+        int mod = totalMoney % counts;
+
+        for(int i = 0 ; i < counts - 1; i++){
+            relist.add(avg);
+        }
         int last = avg + mod;
-        redList.add(last);
-        return redList;
+        relist.add(last);
+
+        return relist;
+
     }
 }

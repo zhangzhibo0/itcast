@@ -1,19 +1,26 @@
 package cn.itcast.day09.demo15Test;
 
-import java.util.Random;
 import java.util.ArrayList;
-public class Member extends User{
-    public Member(){};
-    public Member(String name, int money){
-        super(name,money);
+import java.util.Random;
+
+public class Member extends User {
+
+    public Member() {
     }
 
-    public void receive (ArrayList<Integer> redList){
+    public Member(String name, int money) {
+        super(name, money);
+    }
 
-        int index = new Random().nextInt(redList.size());
-        int delta = redList.remove(index);
+    public void receive(ArrayList<Integer> list){
+
+        int index = new Random().nextInt(list.size());
+
+        int delta = list.remove(index);
         int leftMoney = super.getMoney();
-        super.setMoney(leftMoney + delta);
+
+        super.setMoney(delta + leftMoney);
 
     }
+
 }

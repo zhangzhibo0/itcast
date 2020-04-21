@@ -1,11 +1,15 @@
 package cn.itcast.day09.demo15Test;
 
 public class User {
+
     private String name;
     private int money;
 
-    public User(){};
-    public User(String name, int money){
+    public User(){
+
+    }
+
+    public User(String name, int money) {
         this.name = name;
         this.money = money;
     }
@@ -14,21 +18,19 @@ public class User {
         System.out.println("我叫"+name+"我有"+money+"RMB");
     }
 
-
-
-    public String getName(){
+    public String getName() {
         return name;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
 
-    public int getMoney(){
+    public int getMoney() {
         return money;
     }
-    public void setMoney(int money){
+
+    public void setMoney(int money) {
         this.money = money;
     }
-
-
 }
