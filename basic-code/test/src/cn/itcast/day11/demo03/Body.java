@@ -18,6 +18,8 @@ public class Body {  //外部类
 
     public void methodBody(){
         System.out.println("外部类方法");
+
+        new Heart().beat();
     }
 
     public String getName() {
