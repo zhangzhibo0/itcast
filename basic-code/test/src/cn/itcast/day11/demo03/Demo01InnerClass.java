@@ -6,5 +6,8 @@ public class Demo01InnerClass {
 
         Body body = new Body();
         body.methodBody();
+
+        Body.Heart Bh = new Body().new Heart();
+        Bh.beat();
     }
 }
