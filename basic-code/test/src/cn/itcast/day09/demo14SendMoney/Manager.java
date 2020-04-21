@@ -1,7 +1,7 @@
 package cn.itcast.day09.demo14SendMoney;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 
 public class Manager extends User{
