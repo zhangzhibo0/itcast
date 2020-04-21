@@ -1,4 +1,4 @@
-package cn.itcast.day09SendMoney.demo10Test;
+package cn.itcast.day09SendMoney.demo10;
 
 public class Fu {
     public Fu(){
