@@ -4,57 +4,19 @@ public class Weapon {
 
     private String code;
 
-    public Weapon(){
+    public Weapon() {
 
     }
-    public Weapon(String code){
+
+    public Weapon(String code) {
         this.code = code;
     }
 
-    public String getCode(){
+    public String getCode() {
         return code;
     }
-    public void setCode(String
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                code){
+    public void setCode(String code) {
         this.code = code;
     }
 }
