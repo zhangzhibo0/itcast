@@ -15,7 +15,8 @@ public class DemoGame {
         Hero hero1 = new Hero();
 
         Skill skill = new SkillImple(){
-          public void usb(){
+            @Override
+          public void use(){
               System.out.println("Biu1");
           }
         };
@@ -30,7 +31,7 @@ public class DemoGame {
         hero2.setName("匿名内部类，匿名对象");
         hero2.setSkill(new Skill() {
             @Override
-            public void usb() {
+            public void use() {
                 System.out.println("Biu2");
             }
         });

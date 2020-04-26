@@ -22,5 +22,6 @@ public class DemoInterface {
         list.add("赵兴4");
 
         return list;
+
     }
 }

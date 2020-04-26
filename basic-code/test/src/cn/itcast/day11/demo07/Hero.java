@@ -15,7 +15,7 @@ public class Hero {
 
     public void show(){
         System.out.println("我叫"+name+"我要施放技能了");
-        skill.usb();
+        skill.use();
         System.out.println("施放技能结束");
     }
 

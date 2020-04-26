@@ -8,7 +8,7 @@ public class BootStrap {
     public static void main(String[] args) {
 
         MyRed myRed = new MyRed("抢红包");
-        myRed.setOwnerName("王思聪");
+        myRed.setOwnerName("自己");
 
 
 //        OpenMode list = new NormalMode();

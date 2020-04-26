@@ -12,12 +12,38 @@ public class Person {
     }
 
     @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+    public String toString(){
+        return "Person{name =" +  name + ",age=" + age + "}";
     }
+
+
+    @Override
+    public boolean equals(Object obj){
+
+        if(obj == this){
+            return true;
+        }
+
+        if( obj == null){
+            return false;
+        }
+
+        if( obj instanceof Person) {
+            Person p = (Person) obj;
+            boolean b = this.equals(obj) && this.age == age;
+            return b;
+        }
+        return false;
+    }
+
+   // 自动生成
+//    @Override
+//    public String toString() {
+//        return "Person{" +
+//                "name='" + name + '\'' +
+//                ", age=" + age +
+//                '}';
+//    }
 
     public String getName() {
         return name;
