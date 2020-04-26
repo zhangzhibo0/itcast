@@ -6,7 +6,7 @@ import  java.util.ArrayList;
 public class MainRedPacket {
     public static void main(String[] args) {
 
-        Manager manager = new Manager("管理员", 100);
+        Manager manager = new Manager("管理员", 20);
 
         Member one = new Member("成员A",0);
         Member two = new Member("成员B",0);
@@ -20,6 +20,7 @@ public class MainRedPacket {
         System.out.println("=============");
 
         ArrayList<Integer> redList = new ArrayList<>(manager.send(20,3));
+ //不对       ArrayList<Integer> redList = new ArrayList<>(manager.randomList(20,3));
         one.receive(redList);
         two.receive(redList);
         three.receive(redList);
