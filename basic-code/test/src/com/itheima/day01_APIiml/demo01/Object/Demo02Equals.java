@@ -1,4 +1,4 @@
-package com.itheima.day01_APIiml;
+package com.itheima.day01_APIiml.demo01.Object;
 
 public class Demo02Equals {
     public static void main(String[] args) {
