@@ -32,6 +32,6 @@ public class Demo02Date {
 
         Date date = new Date();
         long timeMillis = date.getTime();
-        System.out.println("date.getTime()方法返回毫秒时间: " + timeMillis);
+        System.out.println("date.getTime()方法返回毫秒时间: " + timeMillis + " [与System.currentTimeMillis()方法相同]");
     }
 }
