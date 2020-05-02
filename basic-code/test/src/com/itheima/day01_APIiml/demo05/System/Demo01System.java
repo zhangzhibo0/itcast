@@ -1,4 +1,4 @@
-package com.itheima.day01_APIiml.demo05System;
+package com.itheima.day01_APIiml.demo05.System;
 
 import java.util.Arrays;
 
@@ -45,5 +45,4 @@ public class Demo01System {
         System.out.println(Arrays.toString(dest));
 
     }
-
 }
