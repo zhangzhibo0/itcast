@@ -22,7 +22,10 @@ public class Demo03Integer {
 
 
         int i = Integer.parseInt("100");
-        System.out.println(i);
+
+
+        double b = Double.parseDouble("200.22");
+        System.out.println(b);
 
 
 
