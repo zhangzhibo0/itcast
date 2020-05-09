@@ -24,14 +24,14 @@ public class Person {
 //        return "Person{name =" +  name + ",age=" + age + "}";
 //    }
 
-    // 自动生成toString重写方法
-//    @Override
-//    public String toString() {
-//        return "Person{" +
-//                "name='" + name + '\'' +
-//                ", age=" + age +
-//                '}';
-//    }
+     //自动生成toString重写方法
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
 
 //    //手动重写equals方法
