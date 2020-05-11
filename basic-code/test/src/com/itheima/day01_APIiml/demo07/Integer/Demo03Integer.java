@@ -6,6 +6,7 @@ public class Demo03Integer {
             基本类型转字符串
          */
         String s1 = 100+"";
+        String s_1 = 200 +"";
         //转换后打印100200，未转换值300；
         System.out.println(s1 + 200);
 

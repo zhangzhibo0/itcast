@@ -1,6 +1,6 @@
 package com.itheima.day02Collection.Demo02Generic;
 
-public class Demo02GenericClass {
+public class Demo01GenericClass {
     public static void main(String[] args) {
 
         GenericClass gc = new  GenericClass();
@@ -18,5 +18,6 @@ public class Demo02GenericClass {
         gc3.setName("字符串字符串");
         String name1 = gc3.getName();
         System.out.println(name1);
+
     }
 }
