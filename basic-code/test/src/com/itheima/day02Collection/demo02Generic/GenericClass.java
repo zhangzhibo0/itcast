@@ -1,4 +1,4 @@
-package com.itheima.day02Collection.Demo02Generic;
+package com.itheima.day02Collection.demo02Generic;
 
 public class GenericClass<E> {
     private E name;

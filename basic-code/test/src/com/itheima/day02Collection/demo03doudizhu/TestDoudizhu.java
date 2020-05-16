@@ -1,4 +1,4 @@
-package com.itheima.day02Collection.Demo03doudizhu;
+package com.itheima.day02Collection.demo03doudizhu;
 
 import  java.util.ArrayList;
 import java.util.Collections;
@@ -36,9 +36,9 @@ public class TestDoudizhu {
 
         //3.发牌.定义4个集合。存储玩家的牌和底牌
 
-        ArrayList<String> playey01 = new ArrayList<>();
-        ArrayList<String> playey02 = new ArrayList<>();
-        ArrayList<String> playey03 = new ArrayList<>();
+        ArrayList<String> player01 = new ArrayList<>();
+        ArrayList<String> player02 = new ArrayList<>();
+        ArrayList<String> player03 = new ArrayList<>();
         ArrayList<String> dipai = new ArrayList<>();
 
         /*
@@ -52,17 +52,17 @@ public class TestDoudizhu {
             if (i >= 51) {
                 dipai.add(p);
             } else if (i % 3 == 0) {
-                playey01.add(p);
+                player01.add(p);
             } else if (i % 3 == 1) {
-                playey02.add(p);
+                player02.add(p);
             }else if(i % 3 == 2){
-                playey03.add(p);
+                player03.add(p);
             }
         }
         System.out.println("================发牌============");
-        System.out.println("刘德华:"  + playey01);
-        System.out.println("钟南山:"  + playey02);
-        System.out.println("邓稼先:"  + playey03);
+        System.out.println("刘德华:"  + player01);
+        System.out.println("钟南山:"  + player02);
+        System.out.println("邓稼先:"  + player03);
         System.out.println("底牌:"  + dipai);
 
 
