@@ -22,6 +22,7 @@ public class Demo03HashSetSavePerson {
 
         System.out.println(p1.hashCode());
         System.out.println(p2.hashCode());
+        System.out.println("p3" + p3.hashCode());
 
         System.out.println(p1==p2);
         System.out.println(p1.equals(p2));
