@@ -30,7 +30,7 @@ public class Demo01List {
         list.add("d");
         list.add("a");
         // 打印集合
-        System.out.println(list);
+        System.out.println(list);  //不是地址值,重写了toString
 
         list.add(3,"itheima");
         System.out.println(list);
