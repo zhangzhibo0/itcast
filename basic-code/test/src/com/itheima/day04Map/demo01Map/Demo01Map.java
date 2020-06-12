@@ -20,11 +20,12 @@ package com.itheima.day04Map.demo01Map;
         2.LinkedHashMap集合是一个有序集合,存储元素和取出元素的顺序是一致的
 
  */
+
 import java.util.Map;
 import java.util.HashMap;
 
 
-public class Demo01Mayp {
+public class Demo01Map {
     public static void main(String[] args) {
 
         show04();
