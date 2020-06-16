@@ -8,7 +8,7 @@ package com.itheima.day04Map.demo01Map;
         3.Map集合中的元素,key是不允许重复的，value是可以重复的.
         4.Map集合中的元素,key和value是一一对象
 
-    java.util.HashMap<k,v>集合 implements May<k,v>接口
+    java.util.HashMap<k,v>集合 implements Map<k,v>接口
     HashMap集合的特点:
         1.HashMap集合底层是哈希表，查询的速度特别的快
             JDK 1.8之前：数组+单项链表
