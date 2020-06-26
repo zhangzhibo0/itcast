@@ -18,10 +18,12 @@ public class Demo01VarArags {
 
         //可变参数注意事项
         method("S",6.6,7,1,2,3,4,5);
-        }
-        public static void method(String s,double d, int i, int ...a){
 
         }
+
+    public static void method(String s,double d, int i, int ...a){
+
+    }
 
     //定义一个方法，计算n个int类型的和
     public static int add(int... arr){
