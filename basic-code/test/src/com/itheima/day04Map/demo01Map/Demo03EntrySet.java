@@ -16,7 +16,7 @@ package com.itheima.day04Map.demo01Map;
         3.使用Entry对象中的方法getKey()和getValue()获取键与值.
  */
 
-import org.omg.CORBA.OBJ_ADAPTER;
+
 
 import java.util.HashMap;
 import java.util.Map;
