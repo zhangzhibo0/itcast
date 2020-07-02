@@ -8,7 +8,7 @@ package com.itheima.day05Throwable.demo02Throw;
     注意:
         1.throw关键字必须在方法内部
         2.throw关键字后边new的对象必须是Exception或者Exception子类对象
-        3.thow关键字抛出指定的异常对象，我们就必须处理这个异常对象
+        3.throw关键字抛出指定的异常对象，我们就必须处理这个异常对象
             throw关键字后边创建的是RuntimeException或者是RuntimeException子类对象,我们可以不处理,默认交给JVM处理(打印异常对象，终端程序)
             throw关键字后边创建的是编译异常(写代码的时候报错)，我们就必须处理这个异常，要么throws,要么try...chatch
  */
@@ -44,7 +44,7 @@ public class Demo01Throw {
         /*
             我们可以对传递过来的参数index进行合法性校验
             如果index的方法不在数组的索引范围内
-            那么我们就抛出数组索引越界异常,告知方法的条用着"传递的索引超出了数组的使用范围"
+            那么我们就抛出数组索引越界异常,告知方法的调用者"传递的索引超出了数组的使用范围"
          */
         if(index < 0 || index >arr.length){
             throw new ArrayIndexOutOfBoundsException("传递索引超出数组使用范围");
