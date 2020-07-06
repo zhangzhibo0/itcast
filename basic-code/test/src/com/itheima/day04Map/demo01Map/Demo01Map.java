@@ -13,7 +13,8 @@ package com.itheima.day04Map.demo01Map;
         1.HashMap集合底层是哈希表，查询的速度特别的快
             JDK 1.8之前：数组+单项链表
             JDK 1.8之后：数组+单项链表/红黑树(链表长度不超过8):提高查询的速度
-       2.hashMay集合是一个无序的集合，存储元素和取出元素的顺序有可能不一致
+       2.hashMap集合是一个无序的集合，存储元素和取出元素的顺序有可能不一致
+
     java.util.LinkedHashMap<k,v>集合 extends HashMap<k,v>集合
     LinkedHashMap特点：
         1.LinkedHashMap集合底层是哈希表+链表(保证迭代顺序)
@@ -47,11 +48,11 @@ import java.util.HashMap;
 public class Demo01Map {
     public static void main(String[] args) {
 
-        show04();
+        show02();
     }
 
     /*
-        boolean containsKey(Object key)判断结合中是否包含指定的键.
+        boolean containsKey(Object key)判断集合中是否包含指定的键.
         包含返回true,不包含返回false
      */
     private static void show04(){
@@ -113,7 +114,7 @@ public class Demo01Map {
         public V put(K key, V value); 把指定的键与指定的值添加到Map集合中。
             返回值:v
                 存储键值对的时候，key不重复,返回值V是null
-                存储键值对的时候，key重复,会使用心得value替换map中的重复的value,返回被替换的value值
+                存储键值对的时候，key重复,会使用新的value替换map中的重复的value,返回被替换的value值
      */
     private static void show01(){
         //创建Map集合对象，多态

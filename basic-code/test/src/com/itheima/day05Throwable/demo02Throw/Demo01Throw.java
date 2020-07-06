@@ -14,9 +14,12 @@ package com.itheima.day05Throwable.demo02Throw;
  */
 public class Demo01Throw {
     public static void main(String[] args) {
-        //int arr[] = null;
+/*
+        int arr[] = null;
+        int e = getElement(arr,0);*/
+
         int arr[] = new int[3];
-        int e = getElement(arr,0);
+        int e = getElement(arr,3);
         System.out.println(e);
 
     }
@@ -46,7 +49,7 @@ public class Demo01Throw {
             如果index的方法不在数组的索引范围内
             那么我们就抛出数组索引越界异常,告知方法的调用者"传递的索引超出了数组的使用范围"
          */
-        if(index < 0 || index >arr.length){
+        if(index < 0 || index >arr.length-1){
             throw new ArrayIndexOutOfBoundsException("传递索引超出数组使用范围");
         }
         int ele = arr[index];
